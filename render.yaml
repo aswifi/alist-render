@@ -12,32 +12,32 @@ services:
         value: 5244
       - key: DB_TYPE
         value: mysql
-        sync: false
+        # sync: false
       - key: DB_HOST
         # value: db_host
         sync: false
       - key: DB_PORT
         value: 3306
-        sync: false
+        # sync: false
       - key: DB_USER
         value: root
-        sync: false
+        # sync: false
       - key: DB_PASS
         # value: db_password
         sync: false
       - key: DB_NAME
         value: web
-        sync: false
+        # sync: false
       - key: DB_TABLE_PREFIX
         value: alist_
-        sync: false
+        # sync: false
       - key: ASSETS
         value: https://npm.elemecdn.com/alist-web@$version/dist
-        sync: false
+        # sync: false
       - key: CACHE_EXPIRATION
         value: 60
-        sync: false
+        # sync: false
       - key: CLEANUP_INTERVAL
         value: 120
-        sync: false
+        # sync: false
       
